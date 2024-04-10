@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc411sql.controllers.auth.RegisterController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="200.0" layoutY="70.0" prefHeight="50.0" prefWidth="400.0" style="-fx-border-color: #0598ff; -fx-background-color: transparent; -fx-border-radius: 10; -fx-border-width: 2px 2px 2px;" />
+            <TextField layoutX="200.0" layoutY="150.0" prefHeight="50.0" prefWidth="400.0" style="-fx-border-color: #0598ff; -fx-background-color: transparent; -fx-border-radius: 10; -fx-border-width: 2px 2px 2px;" />
+            <TextField layoutX="200.0" layoutY="230.0" prefHeight="50.0" prefWidth="400.0" style="-fx-border-color: #0598ff; -fx-background-color: transparent; -fx-border-radius: 10; -fx-border-width: 2px 2px 2px;" />
+            <TextField layoutX="200.0" layoutY="310.0" prefHeight="50.0" prefWidth="400.0" style="-fx-border-color: #0598ff; -fx-background-color: transparent; -fx-border-radius: 10; -fx-border-width: 2px 2px 2px;" />
+            <TextField layoutX="200.0" layoutY="390.0" prefHeight="50.0" prefWidth="400.0" style="-fx-border-color: #0598ff; -fx-background-color: transparent; -fx-border-radius: 10; -fx-border-width: 2px 2px 2px;" />
+            <Text layoutX="532.0" layoutY="495.0" onMouseClicked="#signInOnMouse" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Text>
+            <Button layoutX="322.0" layoutY="495.0" mnemonicParsing="false" onAction="#signUpOnAction" prefHeight="43.0" prefWidth="130.0" style="-fx-background-radius: 20;" text="Sign up" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

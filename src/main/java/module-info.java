@@ -7,4 +7,6 @@ module com.example.csc411sql {
 
     opens com.example.csc411sql to javafx.fxml;
     exports com.example.csc411sql;
+    exports com.example.csc411sql.controllers.auth;
+    opens com.example.csc411sql.controllers.auth to javafx.fxml;
 }
